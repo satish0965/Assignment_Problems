@@ -8,13 +8,13 @@ namespace AssignmentProblems
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("5 for Factors Problem");
+            Console.WriteLine("6 for Factorial Number Problem");
             int Problem = Convert.ToInt32(Console.ReadLine());
             switch (Problem)
             {
-                case 5:
-                    FactorsProb factors = new FactorsProb();
-                    factors.Factors();
+                case 6:
+                    FactorialNumber factorial = new FactorialNumber();
+                    factorial.Factorial();
                     break;
             }
         }
