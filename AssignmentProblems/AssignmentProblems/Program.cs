@@ -8,13 +8,13 @@ namespace AssignmentProblems
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("1 for Fibonacci Series Problem");
+            Console.WriteLine("2 for Prime Number Problem");
             int Problem = Convert.ToInt32(Console.ReadLine());
             switch (Problem)
             {
-                case 1:
-                    FibonacciSeries fibonacci = new FibonacciSeries();
-                    fibonacci.Fibonaaci();
+                case 2:
+                    PrimeNumber prob = new PrimeNumber();
+                    prob.PrimeNumbers();
                     break;
 
             }
